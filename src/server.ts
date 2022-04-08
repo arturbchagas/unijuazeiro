@@ -12,7 +12,7 @@ function soma(){
     x =parseInt(prompt("Escreva o primeiro numero"));
     y =parseInt(prompt("Escreva o segundo numero"));
         
-    } while (x < 0 && y < 0);
+    } while (x < 0 && y < 0 && x > y );
     
 
     for (let i = x; i < y; i++) {
